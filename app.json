@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "MacroChief",
+    "slug": "macrochief",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0F14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.macrochief.app"
+    },
+    "android": {
+      "package": "com.macrochief.app"
+    }
+  }
+}
