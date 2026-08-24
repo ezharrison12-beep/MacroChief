@@ -9,6 +9,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#0B0F14"
     },
+    "plugins": [
+      [
+        "@kingstinct/react-native-healthkit",
+        {
+          "NSHealthShareUsageDescription": "MacroChief uses your Apple Health workout and activity data to track calories burned and adjust your daily nutrition target.",
+          "NSHealthUpdateUsageDescription": "MacroChief may use Apple Health to keep your nutrition and activity data in sync.",
+          "background": false
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.macrochief.app",
