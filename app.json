@@ -11,7 +11,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.macrochief.app"
+      "bundleIdentifier": "com.macrochief.app",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "MacroChief uses your Apple Health workout and activity data to track calories burned and adjust your daily nutrition target.",
+        "NSHealthUpdateUsageDescription": "MacroChief may use Apple Health to keep your nutrition and activity data in sync."
+      }
     },
     "android": {
       "package": "com.macrochief.app"
